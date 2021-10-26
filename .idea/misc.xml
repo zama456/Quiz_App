@@ -5,11 +5,14 @@
       <map>
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_baseline_warning_24.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_facebook.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_google.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/round_button.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/font/nosifer.xml" value="0.2171875" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/activity_sign_in.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
       </map>
     </option>
   </component>

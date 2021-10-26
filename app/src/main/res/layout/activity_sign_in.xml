@@ -25,66 +25,74 @@
             android:fontFamily="@font/nova_cut"
             android:gravity="center"
             android:text="QuizUp"
-            android:textStyle="bold"
             android:textColor="@color/purple_700"
-            android:textSize="35dp" />
+            android:textSize="35dp"
+            android:textStyle="bold" />
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LogIn"
-            android:textSize="30dp"
             android:layout_marginLeft="43dp"
             android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:textColor="@color/purple_500"/>
-        <EditText
-            android:layout_width="269dp"
-            android:layout_height="46dp"
-            android:hint="Email"
-            android:paddingRight="5dp"
-            android:paddingLeft="20dp"
-            android:drawableLeft="@drawable/ic_baseline_email_24"
-            android:layout_marginLeft="40dp"
-            android:background="@drawable/round_button"
-            android:layout_marginTop="20dp"
-            android:textColorHint="@color/purple_500"/>
+            android:text="LogIn"
+            android:textColor="@color/purple_500"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
         <EditText
-            android:layout_width="269dp"
+            android:id="@+id/etEmailSignIn"
+            android:layout_width="match_parent"
             android:layout_height="46dp"
-            android:hint="Password"
-            android:paddingLeft="20dp"
-            android:drawableLeft="@drawable/ic_baseline_lock_24"
-            android:layout_marginLeft="40dp"
-            android:background="@drawable/round_button"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
             android:layout_marginTop="20dp"
-            android:textColorHint="@color/purple_500"/>
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:hint="Email"
+            android:paddingLeft="20dp"
+            android:drawablePadding="15dp"
+            android:textColorHint="@color/purple_500" />
+
+        <EditText
+            android:id="@+id/etPasswordSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:drawablePadding="15dp"
+            android:textColorHint="@color/purple_500" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="10dp"
             android:text="Forget Password?"
-            android:textSize="18dp"
             android:textColor="#DA0303"
-            android:layout_marginLeft="155dp"
-            android:layout_marginTop="10dp"/>
+            android:textSize="18dp" />
 
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSignIn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="210dp"
-            android:layout_marginTop="25dp"
-            app:cornerRadius="120dp"
-            android:text="SignIn"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            app:strokeColor="@color/purple_500"
-            app:strokeWidth="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="25dp"
+            android:text="SignIn"
             android:textAllCaps="false"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            app:cornerRadius="120dp"
+            app:strokeColor="@color/purple_500"
+            app:strokeWidth="2dp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -112,10 +120,6 @@
                 android:textSize="20dp" />
 
         </RelativeLayout>
-
-
-
-
 
 
     </LinearLayout>
