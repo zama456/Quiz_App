@@ -3,7 +3,9 @@ package com.example.quizapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
@@ -99,6 +101,34 @@ public class SignInActivity extends AppCompatActivity {
 
             });
 
+
+
         }
     }
+
+
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alretdialog = new AlertDialog.Builder(this);
+        alretdialog.setTitle("Exit!");
+        alretdialog.setIcon(R.drawable.ic_baseline_warning_24);
+        alretdialog.setCancelable(false);
+        alretdialog.setMessage("Are sure you want to exit ??");
+        alretdialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+        alretdialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+        AlertDialog alert = alretdialog.create();
+        alretdialog.show();
+
+    }
 }
+

@@ -45,30 +45,6 @@ public class SignUpActivity<SingUpActivity> extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mUser = mAuth.getCurrentUser();
 
-
-           {
-            AlertDialog.Builder alretdialog = new AlertDialog.Builder(this);
-            alretdialog.setTitle("Warning!!");
-            alretdialog.setIcon(R.drawable.ic_baseline_warning_24);
-            alretdialog.setCancelable(false);
-            alretdialog.setMessage("Are sure you want to exit from this app??");
-            alretdialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    finish();
-                }
-            });
-            alretdialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    dialog.cancel();
-
-                }
-            });
-            AlertDialog alert = alretdialog.create();
-            alretdialog.show();
-        }
-
         tvAlreadyaccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -130,6 +106,30 @@ public class SignUpActivity<SingUpActivity> extends AppCompatActivity {
 
     }
 
+
+    @Override
+    public void onBackPressed() {
+            AlertDialog.Builder alretdialog = new AlertDialog.Builder(this);
+            alretdialog.setTitle("Exit!");
+            alretdialog.setIcon(R.drawable.ic_baseline_warning_24);
+            alretdialog.setCancelable(false);
+            alretdialog.setMessage("Are sure you want to exit ??");
+            alretdialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    finishAffinity();
+                }
+            });
+            alretdialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    dialog.cancel();
+                }
+            });
+            AlertDialog alert = alretdialog.create();
+            alretdialog.show();
+
     }
+}
 
 
