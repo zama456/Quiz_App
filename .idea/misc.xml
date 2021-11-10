@@ -7,16 +7,44 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/alert_diloag_box.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_baseline_warning_24.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_facebook.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_google.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/ic_wave.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/round_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/drawable/side_nav_bar.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/font/berkshire_swash.xml" value="0.20572916666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/font/nosifer.xml" value="0.2171875" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/font/nova_cut.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/activity_side_navigation.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/activity_sign_in.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/app_bar_main.xml" value="0.175" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/app_bar_side_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/content_side_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/custom_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/exit_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/fragment_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/fragment_gallery.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/home_fragment.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/info_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/myscore_fragment.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/nav_header_side_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/layout/sample_recyclerview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/menu/side__navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/menu/side_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/QuizApp7/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2703125" />
       </map>
     </option>
   </component>
